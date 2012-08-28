@@ -15,7 +15,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^hello$', 'views.index'),
-    url(r'^dtl_hello$', 'views.dtl_hello'),
-    url(r'^dtl_sql$', 'views.dtl_sql'),
+    url(r'^hello$', 'HelloWorld.views.index'),
+    url(r'^dtl_hello$', 'HelloWorld.views.dtl_hello'),
+    url(r'^dtl_sql$', 'HelloWorld.views.dtl_sql'),
 )
